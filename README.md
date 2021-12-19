@@ -6,9 +6,12 @@
 ####  Code refactoring  involves editing and cleaning up previously written software code without changing the function of the code at all.The basic purpose of code refactoring is to make the code more efficient and maintainable. 
 
 ####  So initially the Code for All stocks prices before refactoring was assigning value to each ticker and going through the given sheet everytime and complete the loop.That was repetative search and was taking more time. Also the variables were "double". This is shown below:
+
 ![alt text](https://github.com/RGK73/stock-analysis/blob/main/Resources/data%20type%20double.png)
 ![alt text](https://github.com/RGK73/stock-analysis/blob/main/Resources/Repetative%20loop%20through%20each%20ticker%20value.png)
+
 Hence the time to execute the code for the years 2017 and 2018 was more as shown in the following images
+
 ![alt text](https://github.com/RGK73/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202017%20before%20refactoring.png)
 ![alt text](https://github.com/RGK73/stock-analysis/blob/main/Resources/All%20Stocks%20Analysis%202018%20before%20refactoring.png)
 ![alt text](https://github.com/RGK73/stock-analysis/blob/main/Resources/original%202017.png)
@@ -47,4 +50,4 @@ From the time stamps screenshots below, we can clearly see the difference.
 
 ##How do these pros and cons apply to refactoring the original VBA script?
 
-While refactoring you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read it is not always feasiable. But refactoring is key in reducing technical cost since it’s much better to clean up the code now than pay for costly errors later. Code refactoring, which improves readability, makes the QA and debugging process go much more smoothly. And while it doesn’t remove bugs, it can certainly help prevent them in the future.
+While refactoring you just want to make the code more efficient—by taking fewer steps, using less memory, or improving the logic of the code to make it easier for future users to read it is not always feasiable. But refactoring is key in reducing technical cost since it’s much better to clean up the code now than pay for costly errors later. Code refactoring, which improves readability, makes the QA and debugging process go much more smoothly. And while it doesn’t remove bugs, it can certainly help prevent them in the future. It's like a good housekeeping so that we can find everything quickly when in need.
